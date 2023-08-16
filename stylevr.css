@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-image: url(background-headset.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.color
+{
+	color: white;
+}
+
+.Intro
+{
+	justify-content: center;
+	text-align: center;
+	object-position: center;
+}
+
+.Intro h1
+{
+	font-size: 50px;
+}
+
+.Intro h3
+{
+	font-size: 30px;
+}
+.Intro .button
+{
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	transition: background-color 0.2s ease-in-out, padding 0.2s ease-in-out;
+       
+}
+
+.Intro .button:hover
+{
+	background-color: #C41F1F;
+	padding: 12px 16px;
+}
